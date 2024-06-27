@@ -11,7 +11,7 @@ const AppRoutes = () => {
     <>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route path="desktop" element={<DeskTop />} />
+          <Route path="/" element={<DeskTop />} />
           <Route path="download" element={<Download />} />
           <Route path="thisPc/diskc" element={<DiskC />} />
           <Route path="thisPc/diskd" element={<DiskD />} />

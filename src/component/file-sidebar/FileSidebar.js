@@ -33,9 +33,9 @@ const FileSidebar = () => {
       >
         <ListItemButton>
           <Link
-            to="/desktop"
+            to="/"
             className={`file_sidebar_link ${
-              location?.pathname === "/desktop" ? "active" : ""
+              location?.pathname === "/" ? "active" : ""
             }`}
             onClick={() => handlePanel(1)}
           >
